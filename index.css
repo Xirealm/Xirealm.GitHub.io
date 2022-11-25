@@ -8,6 +8,10 @@
     width: 1200px;
 }
 
+body{
+    background: url("https://xirealm.oss-cn-beijing.aliyuncs.com/xi/v2-4b4b5e7a2f44b06f0194fdfe28c9d563_r.jpg") ;
+}
+
 .name{
     position: fixed;
     background-color:darkolivegreen;
@@ -18,9 +22,9 @@
 }
 
 .titlebox{
-    background: url("https://xirealm.oss-cn-beijing.aliyuncs.com/xi/v2-4b4b5e7a2f44b06f0194fdfe28c9d563_r.jpg") no-repeat;
+    margin: auto;
     height: 250px;
-    width: 1707px;
+    width: 800px;
     text-align: center;
 }
 
@@ -42,6 +46,10 @@
 .work{
     position: relative;
     top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
     text-align: left;
 }
 
@@ -54,6 +62,7 @@
 li{
     font-family: "华文楷体";
     font-size: 25px;
+    list-style: none;
 }
 
 a{
